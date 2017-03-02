@@ -10,6 +10,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //Kevin es un `paquete y siempre me hace trabajar como un negro
-        // Eso es mentira!!!!!!
+        // Eso es mentira!!!!!!!!
     }
 }
