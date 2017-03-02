@@ -10,8 +10,97 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.kevin.m08uf2_practica_kevinmiguel.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        tools:ignore="UselessParent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:weightSum="1"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:layout_width="186dp"
+                android:layout_height="129dp"
+                android:id="@+id/btn01"
+                android:background="@drawable/mario"
+                android:onClick="onClick"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:id="@+id/btn02"
+                android:background="@drawable/gps"
+                tools:ignore="ButtonStyle"
+                android:onClick="onClick" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:layout_weight="0.14">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="194dp"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <Button
+                    android:layout_width="172dp"
+                    android:layout_height="140dp"
+                    android:id="@+id/btn05"
+                    android:background="@drawable/camara" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="159dp"
+                android:id="@+id/btn6"
+                android:background="@drawable/so" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_weight="0.76"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="196dp"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <Button
+                    android:layout_width="155dp"
+                    android:layout_height="137dp"
+                    android:id="@+id/btn7"
+                    android:background="@drawable/video"
+                    android:layout_weight="0.34" />
+
+            </LinearLayout>
+
+            <Button
+                android:text="Button"
+                android:layout_width="149dp"
+                android:layout_height="147dp"
+                android:id="@+id/button8"
+                android:layout_weight="0.93" />
+        </LinearLayout>
+
+    </LinearLayout>
 </RelativeLayout>
