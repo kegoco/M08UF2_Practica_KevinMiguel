@@ -24,15 +24,17 @@
             android:layout_width="match_parent"
             android:layout_height="139dp"
             android:weightSum="1"
-            tools:ignore="UselessParent">
+            tools:ignore="UselessParent"
+            android:layout_weight="0.12">
 
             <Button
-                android:layout_width="186dp"
-                android:layout_height="129dp"
+                android:layout_width="174dp"
+                android:layout_height="match_parent"
                 android:id="@+id/btn01"
                 android:background="@drawable/mario"
                 android:onClick="onClick"
-                tools:ignore="ButtonStyle" />
+                tools:ignore="ButtonStyle"
+                android:layout_weight="0.50" />
 
             <Button
                 android:layout_width="129dp"
@@ -76,7 +78,7 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="29dp"
-            android:layout_weight="0.76"
+            android:layout_weight="0.81"
             android:weightSum="1">
 
             <LinearLayout
@@ -86,20 +88,13 @@
                 android:weightSum="1">
 
                 <Button
-                    android:layout_width="155dp"
-                    android:layout_height="137dp"
+                    android:layout_width="171dp"
+                    android:layout_height="120dp"
                     android:id="@+id/btn7"
-                    android:background="@drawable/video"
-                    android:layout_weight="0.34" />
+                    android:background="@drawable/video" />
 
             </LinearLayout>
 
-            <Button
-                android:text="Button"
-                android:layout_width="149dp"
-                android:layout_height="147dp"
-                android:id="@+id/button8"
-                android:layout_weight="0.93" />
         </LinearLayout>
 
     </LinearLayout>
