@@ -9,7 +9,9 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
     private Button btn01;
     private Button btn02;
+    private Button btn03;
     private Button btn04;
+    private Button btn05;
 
 
     @Override
@@ -19,7 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
         btn01 = (Button) findViewById(R.id.btn01);
         btn02 = (Button) findViewById(R.id.btn02);
+        btn03 = (Button) findViewById(R.id.btn03);
         btn04 = (Button) findViewById(R.id.btn04);
+        btn05 = (Button) findViewById(R.id.btn05);
 
         btn01.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -37,10 +41,26 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btn03.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick (View v) {
+                Intent i = new Intent(MainActivity.this, Btn03_Camara.class);
+                startActivity(i);
+            }
+        });
+
         btn04.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v) {
                 Intent i = new Intent(MainActivity.this, Btn04_Sonido.class);
+                startActivity(i);
+            }
+        });
+
+        btn05.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick (View v) {
+                Intent i = new Intent(MainActivity.this, Btn05_Video.class);
                 startActivity(i);
             }
         });

@@ -90,7 +90,7 @@
                 <Button
                     android:layout_width="171dp"
                     android:layout_height="120dp"
-                    android:id="@+id/btn5"
+                    android:id="@+id/btn05"
                     android:background="@drawable/video" />
 
             </LinearLayout>

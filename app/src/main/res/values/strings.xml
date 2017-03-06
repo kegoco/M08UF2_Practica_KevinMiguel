@@ -13,4 +13,6 @@
     <string name="eventos_mapa">Eventos Mapa</string>
     <string name="gps">GPS</string>
     <string name="googlemaps">GoogleMaps</string>
+    <string name="hacer_foto">Hacer foto</string>
+    <string name="foto_de_c_mara">Foto_de_cámara</string>
 </resources>
