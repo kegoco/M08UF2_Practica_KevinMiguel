@@ -10,4 +10,7 @@
     <string name="title_activity_btn01__interpolacion">Btn01_Interpolacion</string>
     <string name="mario">mario</string>
     <string name="boton_fotograma">Boton Fotograma</string>
+    <string name="eventos_mapa">Eventos Mapa</string>
+    <string name="gps">GPS</string>
+    <string name="googlemaps">GoogleMaps</string>
 </resources>

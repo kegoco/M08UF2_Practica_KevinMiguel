@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <application
         android:allowBackup="true"
@@ -21,7 +22,9 @@
         <activity android:name=".Btn04_Sonido" />
         <activity android:name=".Btn01_Imagen" />
         <activity android:name=".Btn01_Interpola" />
-        <activity android:name=".Btn01_Fotogra"></activity>
+        <activity android:name=".Btn01_Fotogra" />
+        <activity android:name=".Btn02_GPS" />
+        <activity android:name=".Btn02_PosicionGPS"></activity>
     </application>
 
 </manifest>

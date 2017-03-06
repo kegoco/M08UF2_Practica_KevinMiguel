@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     private Button btn01;
+    private Button btn02;
     private Button btn04;
 
 
@@ -17,12 +18,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btn01 = (Button) findViewById(R.id.btn01);
+        btn02 = (Button) findViewById(R.id.btn02);
         btn04 = (Button) findViewById(R.id.btn04);
 
         btn01.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v) {
                 Intent i = new Intent(MainActivity.this, Btn01_Imagen.class);
+                startActivity(i);
+            }
+        });
+
+        btn02.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick (View v) {
+                Intent i = new Intent(MainActivity.this, Btn02_GPS.class);
                 startActivity(i);
             }
         });
