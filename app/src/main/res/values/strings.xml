@@ -3,4 +3,11 @@
     <string name="grabar_sonido">Grabar sonido</string>
     <string name="atr_s">Atrás</string>
     <string name="reproducir_sonido">Reproducir sonido</string>
+    <string name="imagen_interpolaci_n">Imagen Interpolación</string>
+    <string name="imagen_fotograma">Imagen fotograma</string>
+    <string name="atras">Atras</string>
+    <string name="boton_interpolaci_n">Boton Interpolación</string>
+    <string name="title_activity_btn01__interpolacion">Btn01_Interpolacion</string>
+    <string name="mario">mario</string>
+    <string name="boton_fotograma">Boton Fotograma</string>
 </resources>

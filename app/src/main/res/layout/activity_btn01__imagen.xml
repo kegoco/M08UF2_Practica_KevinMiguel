@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_btn01__imagen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kevin.m08uf2_practica_kevinmiguel.Btn01_Imagen">
+
+    <Button
+        android:text="@string/boton_interpolaci_n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/btnInterpolacion"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/btnimgfotogramas" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnInterpolacion"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:id="@+id/btnimgfotogramas"
+        android:layout_alignParentEnd="true"
+        android:text="@string/boton_fotograma" />
+
+    <Button
+        android:text="@string/atras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnimgfotogramas"
+        android:layout_alignStart="@+id/btnimgfotogramas"
+        android:id="@+id/btnAtras"
+        android:layout_alignParentEnd="true"
+        tools:text="Atras" />
+</RelativeLayout>

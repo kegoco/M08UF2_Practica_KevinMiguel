@@ -4,20 +4,28 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.Button;
-import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
+    private Button btn01;
     private Button btn04;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        btn01 = (Button) findViewById(R.id.btn01);
         btn04 = (Button) findViewById(R.id.btn04);
+
+        btn01.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick (View v) {
+                Intent i = new Intent(MainActivity.this, Btn01_Imagen.class);
+                startActivity(i);
+            }
+        });
 
         btn04.setOnClickListener(new View.OnClickListener(){
             @Override

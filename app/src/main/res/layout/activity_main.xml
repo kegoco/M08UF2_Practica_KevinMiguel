@@ -61,7 +61,7 @@
                 <Button
                     android:layout_width="172dp"
                     android:layout_height="140dp"
-                    android:id="@+id/btn05"
+                    android:id="@+id/btn03"
                     android:background="@drawable/camara" />
 
             </LinearLayout>
@@ -90,7 +90,7 @@
                 <Button
                     android:layout_width="171dp"
                     android:layout_height="120dp"
-                    android:id="@+id/btn7"
+                    android:id="@+id/btn5"
                     android:background="@drawable/video" />
 
             </LinearLayout>
