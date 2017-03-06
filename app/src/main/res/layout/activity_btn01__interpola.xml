@@ -23,10 +23,10 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            app:srcCompat="@drawable/mario"
             android:id="@+id/imgV"
             android:layout_weight="1.01"
-            android:contentDescription="@string/mario" />
+            android:contentDescription="@string/mario"
+            app:srcCompat="@drawable/banane" />
 
         <Button
             android:text="@string/atr_s"

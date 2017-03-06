@@ -3,6 +3,8 @@ package com.example.kevin.m08uf2_practica_kevinmiguel;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 
@@ -30,7 +32,9 @@ public class Btn01_Interpola extends AppCompatActivity implements View.OnClickLi
 
     @Override
     public void onClick(View v) {
-
+        ImageView imatge = (ImageView) findViewById(R.id.imgV);
+        Animation animacioBanana = AnimationUtils.loadAnimation(this,R.anim.venir);
+        imatge.startAnimation(animacioBanana);
     }
 
 }
