@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".Btn04_Sonido" />
         <activity android:name=".Btn01_Imagen" />
-        <activity android:name=".Btn01_Interpola"></activity>
+        <activity android:name=".Btn01_Interpola" />
+        <activity android:name=".Btn01_Fotogra"></activity>
     </application>
 
 </manifest>

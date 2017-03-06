@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class Btn01_Imagen extends AppCompatActivity {
     private Button btn01_interpolacion;
+    private Button btn01_fotograma;
     private Button btnAtras;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,12 +16,21 @@ public class Btn01_Imagen extends AppCompatActivity {
         setContentView(R.layout.activity_btn01__imagen);
 
         btn01_interpolacion = (Button) findViewById(R.id.btnInterpolacion);
+        btn01_fotograma = (Button) findViewById(R.id.btnimgfotogramas);
         btnAtras = (Button) findViewById(R.id.btnAtras);
 
         btn01_interpolacion.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v) {
                 Intent i = new Intent(Btn01_Imagen.this, Btn01_Interpola.class);
+                startActivity(i);
+            }
+        });
+
+        btn01_fotograma.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick (View v) {
+                Intent i = new Intent(Btn01_Imagen.this, Btn01_Fotogra.class);
                 startActivity(i);
             }
         });
