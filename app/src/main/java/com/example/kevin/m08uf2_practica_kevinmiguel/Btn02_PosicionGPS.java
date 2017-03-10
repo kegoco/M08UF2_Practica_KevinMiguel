@@ -36,7 +36,7 @@ public class Btn02_PosicionGPS extends AppCompatActivity implements LocationList
 
     @Override
     public void onLocationChanged(Location location) {
-
+        // Éste evento se ejecutará cuando la posición cambie.
         String text = "Posicion actual:\n" + "Latitud - " + location.getLatitude() + "\n"
                 + "Longitud = " + location.getLongitude();
         Toast.makeText(getApplicationContext(),text,Toast.LENGTH_LONG).show();
@@ -44,6 +44,7 @@ public class Btn02_PosicionGPS extends AppCompatActivity implements LocationList
 
     @Override
     public void onStatusChanged(String s, int status, Bundle bundle) {
+        // Éste evento se ejecutará cuando el estado cambie.
         String missatge = "";
         switch (status){
             case LocationProvider.OUT_OF_SERVICE:

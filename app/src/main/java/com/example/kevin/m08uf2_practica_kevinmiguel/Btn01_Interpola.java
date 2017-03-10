@@ -32,6 +32,8 @@ public class Btn01_Interpola extends AppCompatActivity implements View.OnClickLi
 
     @Override
     public void onClick(View v) {
+        // Cuando se hace un "touch" se ejecutará el siguiente código.
+        // El siguiente código pone en marcha la animación de la imagen.
         ImageView imatge = (ImageView) findViewById(R.id.imgV);
         Animation animacioBanana = AnimationUtils.loadAnimation(this,R.anim.venir);
         imatge.startAnimation(animacioBanana);

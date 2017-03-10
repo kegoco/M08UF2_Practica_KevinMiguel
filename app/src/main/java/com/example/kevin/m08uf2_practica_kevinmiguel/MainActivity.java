@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         btn04 = (Button) findViewById(R.id.btn04);
         btn05 = (Button) findViewById(R.id.btn05);
 
+        // El botón "btn01" hace referencia al botón con la imagen de Mario.
         btn01.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v) {
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // El botón "btn02" hace referencia al botón con la imagen de GPS.
         btn02.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v) {
@@ -41,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // El botón "btn03" hace referencia al botón con la imagen del Pinguino que sujeta una cámara.
         btn03.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v) {
@@ -49,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // El botón "btn04" hace referencia al botón con la imagen del micrófono.
         btn04.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v) {
@@ -57,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // El botón "btn05" hace referencia al botón con la imagen del vídeo.
         btn05.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v) {
@@ -65,10 +70,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    public void onClick(View v){
-        System.out.println("funciona");
-
-
-    }
-
 }

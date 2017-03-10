@@ -38,7 +38,7 @@ public class GoogleMaps extends FragmentActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
+        // Add a marker in Valencia and move the camera
         LatLng valencia = new LatLng(39,0);
         mMap.addMarker(new MarkerOptions().position(valencia).title("Marker in valencia"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(valencia));
