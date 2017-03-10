@@ -12,32 +12,32 @@
     tools:context="com.example.kevin.m08uf2_practica_kevinmiguel.Btn03_Camara">
 
     <Button
-        android:text="@string/hacer_foto"
+        android:id="@+id/btnFoto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btnFoto"
-        tools:ignore="ButtonStyle"
-        android:onClick="fesFoto" />
+        android:layout_weight="1"
+        android:text="@string/hacer_foto"
+        tools:ignore="ButtonStyle,ObsoleteLayoutParam" />
 
     <Button
-        android:text="@string/atr_s"
+        android:id="@+id/btnAtras"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btnAtras"
+        android:text="@string/atr_s"
         tools:ignore="ButtonStyle,RelativeOverlap"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="28dp"
-        android:layout_alignBottom="@+id/btnFoto" />
+        android:layout_marginEnd="21dp" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher"
         android:id="@+id/imgFoto"
-        android:contentDescription="@string/foto_para_visualizarrrrr"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_toEndOf="@+id/btnFoto"
-        android:layout_marginStart="25dp" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnFoto"
+        android:layout_marginTop="38dp"
+        android:contentDescription="@string/foto_de_c_mara"
+        app:srcCompat="@mipmap/ic_launcher" />
 
 </RelativeLayout>
