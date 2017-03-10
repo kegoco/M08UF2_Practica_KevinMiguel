@@ -38,12 +38,12 @@ public class Btn03_Camara extends AppCompatActivity {
         btnAtras = (Button) findViewById(R.id.btnAtras);
         imgFoto = (ImageView) findViewById(R.id.imgFoto);
 
-        /*btnAtras.setOnClickListener(new View.OnClickListener(){
+        btnAtras.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v) {
                 System.exit(0);
             }
-        });*/
+        });
     }
 
     public void fesFoto(View v) {
