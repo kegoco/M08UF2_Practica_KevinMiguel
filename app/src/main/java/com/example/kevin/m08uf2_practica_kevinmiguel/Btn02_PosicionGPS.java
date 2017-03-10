@@ -31,7 +31,7 @@ public class Btn02_PosicionGPS extends AppCompatActivity implements LocationList
             return;
         }
 
-        gestorLoc.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 1, this);
+        gestorLoc.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1500, 1, this);
     }
 
     @Override
