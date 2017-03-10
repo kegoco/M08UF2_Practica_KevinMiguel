@@ -29,6 +29,14 @@ public class Btn02_GPS extends AppCompatActivity {
             }
         });
 
+        btnGoogleMaps.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick (View v) {
+                Intent i = new Intent(Btn02_GPS.this, GoogleMaps.class);
+                startActivity(i);
+            }
+        });
+
         btnAtras.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v) {
